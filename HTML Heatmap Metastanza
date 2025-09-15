@@ -1,0 +1,37 @@
+<script type="module" src="https://togostanza.github.io/metastanza-devel/heatmap.js" async></script>
+
+<style>
+  togostanza-heatmap {
+    --togostanza-canvas-width: 2500;
+    --togostanza-canvas-height: 200;
+  }
+</style>
+
+<togostanza-heatmap
+  data-url="https://raw.githubusercontent.com/ChenaniahChen/metastanza/refs/heads/main/MetastanzaHeatmap2"
+  data-type="json"
+  legend-visible
+  legend-title="value"
+  legend-color_steps="2"
+  axis-x-key="group"
+  axis-x-title=""
+  axis-x-title_padding="40"
+  axis-x-ticks_label_angle="0"
+  axis-x-placement="bottom"
+  axis-y-key="variable"
+  axis-y-title=""
+  axis-y-title_padding="40"
+  axis-y-ticks_label_angle="0"
+  axis-y-placement="left"
+  cell-color_key="value"
+  cell-color_min="#a9284f"
+  cell-color_mid="#febebe"
+  cell-color_max="#F75976"
+  cell-value_min="0.007"
+  cell-value_mid="0.008"
+  cell-value_max="1"
+  tooltip="{{#if url}}&lt;a href&#x3D;{{url}}&gt;{{value}}&lt;/a&gt;{{else}}&lt;span&gt;{{value}}&lt;/span&gt;{{/if}}"
+  event-incoming_change_selected_nodes
+  event-outgoing_change_selected_nodes
+  togostanza-custom_css_url=""
+></togostanza-heatmap>
