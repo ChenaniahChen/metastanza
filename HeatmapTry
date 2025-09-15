@@ -1,0 +1,103 @@
+{
+  "type": "heatmap",
+  "rows": [
+    {
+      "gene": "ARID1A",
+      "group": 3,
+      "variant": "chr1:26697287_T>G",
+      "values": {
+        "Score": 0.6238,
+        "Effect": 1.0
+      }
+    },
+    {
+      "gene": "PTCH2",
+      "group": 3,
+      "variant": "chr1:44823158_C>A",
+      "values": {
+        "Score": 0.1004,
+        "Effect": 0.0
+      }
+    },
+    {
+      "gene": "MSH6",
+      "group": 3,
+      "variant": "chr2:47783492_A>C",
+      "values": {
+        "Score": 0.3295,
+        "Effect": 0.0
+      }
+    },
+    {
+      "gene": "IDH1",
+      "group": 3,
+      "variant": "chr2:208248484_C>T",
+      "values": {
+        "Score": 0.9805,
+        "Effect": 1.0
+      }
+    },
+    {
+      "gene": "CTNNB1",
+      "group": 3,
+      "variant": "chr3:41233385_C>T",
+      "values": {
+        "Score": 0.9984,
+        "Effect": 1.0
+      }
+    },
+    {
+      "gene": "FGFR3",
+      "group": 3,
+      "variant": "chr4:1806305_G>T",
+      "values": {
+        "Score": 0.9983,
+        "Effect": 1.0
+      }
+    },
+    {
+      "gene": "SMO",
+      "group": 3,
+      "variant": "chr7:129210500_G>T",
+      "values": {
+        "Score": 0.9897,
+        "Effect": 1.0
+      }
+    },
+    {
+      "gene": "KMT2D",
+      "group": 3,
+      "variant": "chr12:49051215_C>A",
+      "values": {
+        "Score": 0.7303,
+        "Effect": 1.0
+      }
+    },
+    {
+      "gene": "PPM1D",
+      "group": 3,
+      "variant": "chr17:60623728_G>A",
+      "values": {
+        "Score": 0.9929,
+        "Effect": 1.0
+      }
+    },
+    {
+      "gene": "DDX3X",
+      "group": 3,
+      "variant": "chrX:41344260_C>T",
+      "values": {
+        "Score": 0.5753,
+        "Effect": 1.0
+      }
+    }
+  ],
+  "encoding": {
+    "effect_mapping": {
+      "likely_pathogenic": 1.0,
+      "ambiguous": 0.5,
+      "unknown": 0.5,
+      "likely_benign": 0.0
+    }
+  }
+}
